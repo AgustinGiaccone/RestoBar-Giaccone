@@ -1,4 +1,4 @@
-import logo from '../img/logoRestoBar.png';
+import logo from '../img/logoRestobar.png';
 import './NavBar.css'
 
 const NavBar = () =>{
