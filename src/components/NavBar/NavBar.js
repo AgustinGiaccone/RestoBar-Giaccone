@@ -1,5 +1,6 @@
 import logo from '../img/logoRestobar.png';
-import './NavBar.css'
+import './NavBar.css';
+import Cartwidget from '../CartWidget/Cartwidget.jsx';
 
 const NavBar = () =>{
     const style = {}
@@ -15,8 +16,8 @@ const NavBar = () =>{
                     <li><a href='#'>Contacto</a></li>
                 </ul>
             </div>
-            <div>
-                <button className='button-login'>Login</button>
+            <div className='img-carrito'>
+                <Cartwidget/>
             </div>
         </div>
     );
