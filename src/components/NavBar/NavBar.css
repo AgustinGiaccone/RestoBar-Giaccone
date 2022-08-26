@@ -23,8 +23,10 @@ li{
     border-radius: 5px;
 }
 
-.button-login{
-    font-size: 20px;
-    margin-right: 90px;
-    margin-left: 0px;
+.img-carrito img{
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 40px;
+    margin-right: 50px;
+
 }
