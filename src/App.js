@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar.js';
-import ItemListConteiners from './components/itemlistconteiners/ItemListConteiner.jsx'
+import ItemListConteiners from './components/itemlistconteiners/ItemListContainer.jsx'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         titulo="Hola, bienbenido a mi pagina"
         miNombre=" Soy, Agustin Giaccone"
         subtitulo="Estudio en Coderhouse"/>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -23,7 +23,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
