@@ -1,5 +1,9 @@
-import './ItemListConteiners.css'
+import './ItemListContainer.css'
 import ItemCount from '../ItemCount/ItemCount.js'
+
+const onAdd = (cantidadComprada) =>{
+    console.log(`compraste ${cantidadComprada} unidades`)
+}
 
 const ItemListConteiners  = ({titulo, miNombre, subtitulo}) =>{
     console.log(subtitulo)
@@ -7,7 +11,7 @@ const ItemListConteiners  = ({titulo, miNombre, subtitulo}) =>{
         <div className='conteiner'>
             <h1>{titulo}</h1>
             <p>{miNombre}</p>
-            <ItemCount/>
+            <ItemCount inicial ={1} stock={10} onAdd={onAdd}/>
         </div>
     )
 }
