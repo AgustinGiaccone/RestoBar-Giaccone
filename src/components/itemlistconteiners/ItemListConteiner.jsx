@@ -1,4 +1,5 @@
 import './ItemListConteiners.css'
+import ItemCount from '../ItemCount/ItemCount.js'
 
 const ItemListConteiners  = ({titulo, miNombre, subtitulo}) =>{
     console.log(subtitulo)
@@ -6,6 +7,7 @@ const ItemListConteiners  = ({titulo, miNombre, subtitulo}) =>{
         <div className='conteiner'>
             <h1>{titulo}</h1>
             <p>{miNombre}</p>
+            <ItemCount/>
         </div>
     )
 }

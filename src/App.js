@@ -8,7 +8,10 @@ function App() {
     <div className="App">
       <NavBar/>
       <header className="App-header">
-      <ItemListConteiners titulo="Hola, bienbenido a mi pagina" miNombre=" Soy, Agustin Giaccone" subtitulo="Estudio en Coderhouse"/>
+      <ItemListConteiners
+        titulo="Hola, bienbenido a mi pagina"
+        miNombre=" Soy, Agustin Giaccone"
+        subtitulo="Estudio en Coderhouse"/>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
