@@ -1,0 +1,18 @@
+.contador{
+    text-align: center;
+    font-size: 10px;
+    background-color: rgba(134, 13, 13, 0.514);
+    border-radius: 40PX;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.contador h3{
+    font-size: 20px;
+}
+.contador h4{
+    font-size: 20px;
+}
+
